@@ -1,15 +1,20 @@
-# Free project 1
+# Free project 1 - Dice management
 
 ## The user and a language
 
 This section describes who the project would serve and why a language might be a
 good way to meet their needs.
 
+The project would serve me specifically. Thats a joke, it would be for calculating probabilities of dice etc easily and quickly with changing elements. The language is so you can have coded results depending on the randomized elements. Things like rerolling 1's, rolling critical successes (ie when you roll a maximum value, you roll again)  etc .
+
+
 ### What's the need?
 
 _What need is met by your idea? Who are you helping? What is that person's
 experience like now? What would their experience be like if you could help
 them?_
+
+
 
 ### Why a language?
 
