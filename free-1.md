@@ -40,16 +40,24 @@ Game Design result analysis
 _How might the user interact with the language? What does programming look
 like? Why is this the right way to interact with the problem domain?_
 
+- I think it could be an external thing, but even just a python plugin would be usable. Something quick and easy. Honestly anything that could quickly export visuals, so probably exterior is ideal 
+
 ### Operation (semantics)
 
 _What might happen when a program runs? How does a program interact with the
 user? What kinds of errors might occur, and how might they be communicated to
 the user?_
 
+- The program runs, calculates all the possibilities (running through each) then shows the expected value based on whats reported. Peferably in nice visuals 
+
 ### Expressiveness
 
 _What should be easy to do in this language? What should be possible, but
 difficult? What should be impossible or very difficult?_
+
+- It should be easy to get expected values of dice rolls, and add contingencies for certian results. 
+- It should be difficult to edit the generated visuals, but it is possible just not the main use of the software 
+- I think keeping it hyper specific is better, so anything outside of math, loops and statistics is a no no 
 
 ### Related work
 
@@ -57,6 +65,8 @@ _Are there any other DSLs in this domain? If not, describe how you know there
 aren't and conjecture why not. If so, describe them and provide links. How well
 do they address the need? Are there any particularly admirable qualities of the
 language? Are there parts of the language you think could be improved?_
+
+- I mean any statistics DSL is in this domain (python can do it generally) (R and mathematic etc is also definitely possible) And many sites have dice roll projections, but I think the goal is to give a middle ground between complete open statisitcal analysis and quick but powerful expirimentation. 
 
 ## The Project
 
@@ -70,11 +80,19 @@ making language design decisions), as opposed to "systems" aspects of the
 project (e.g., implementing a complicated semantics that doesn't require a lot
 of language design)?_
 
+- uhhhhhh. If im interpreting this question correctly, I would think its good for this. Actually implementing code that checks contingencies etc is not difficult 
+(even doable in just python) the goal is to make an easy and clear design of it. 
+
 ### Scope
 
 _How big an idea is this? How ambitious is this project?_
+
+- I think its pretty manageble, especially if its implemented with a dsl that can already generate graphs etc 
 
 ### Benefits and drawbacks
 
 _Why might this be a good idea for a project? Why might this not be a good idea
 project?_
+
+- Pros: I definitely would care about and use  this - relatively simple to implement outside of langauge design 
+- cons: Limited use, not very flashy - easily done with other languages already.
